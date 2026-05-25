@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "data": {
+    "about": {
+      "name": "Mark Miguel V. Manalastas",
+      "title": "Junior Software Developer | Web Cloud Full-Stack",
+      "description": "Junior Software Developer with hands-on experience across frontend, backend, cloud, and deployment workflows. Comfortable adapting to different stacks and roles, with a strong foundation that allows for fast learning and specialization.",
+      "location": "Manila, Philippines",
+      "email": "manalastasmarkmiguel@gmail.com",
+      "github": "https://github.com/migsii",
+      "linkedin": "https://linkedin.com/in/miguel-manalastas/"
+    },
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": "React, Next.js, Vite, HTML5, CSS3, Tailwind CSS, Material UI"
+      },
+      {
+        "category": "Backend & DB",
+        "items": "Node.js, Express.js, RESTful APIs, MongoDB, PostgreSQL, DynamoDB"
+      },
+      {
+        "category": "Cloud & DevOps",
+        "items": "AWS (EC2, S3, RDS, Lambda, API Gateway), Vercel, Nginx, Elastic IP"
+      },
+      {
+        "category": "Languages & Tools",
+        "items": "JavaScript, TypeScript, Python, C#, C++, Git, GitHub Actions, Postman"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Freelance Software Developer",
+        "company": "Self-Employed",
+        "location": "Remote",
+        "period": "June 2024 — Present",
+        "current": true,
+        "bullets": [
+          "Developed full-stack web platforms transforming requirement workflows into customized digital documents.",
+          "Built a responsive frontend using React, Material UI, and Tailwind CSS alongside structured PostgreSQL databases.",
+          "Deployed applications on AWS EC2, configuring Nginx as a web server, reverse proxy, and using Elastic IP for reliable access.",
+          "Worked directly with clients to gather business requirements, manage server updates, and deliver production features."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Anteriore Software Solutions",
+        "location": "Bonifacio Global City",
+        "period": "April 2024 — June 2024",
+        "current": false,
+        "bullets": [
+          "Implemented and maintained web application authentication and authorization features.",
+          "Deployed and maintained production builds utilizing Vercel orchestration.",
+          "Improved modular UI components for cross-device responsiveness and usability.",
+          "Investigated, debugged, and resolved production application performance issues."
+        ]
+      },
+      {
+        "role": "Software Developer Intern",
+        "company": "Anteriore Software Solutions",
+        "location": "Bonifacio Global City",
+        "period": "January 2024 — April 2024",
+        "current": false,
+        "bullets": [
+          "Assisted in building and maintaining software systems using Next.js and Tailwind CSS.",
+          "Implemented clean backend endpoints connected to MongoDB to run CRUD operations.",
+          "Supported cloud architectural integrations using AWS S3 for object asset storage uploads."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Callback.ph Production Platform",
+        "type": "Production Feature Deployment",
+        "description": "Contributed to building and maintaining features for the Callback production web application, a professional platform optimizing communication and connection workflows. Implemented secure MongoDB CRUD interactions, enhanced modular UI components with Next.js and Tailwind CSS for seamless cross-device responsiveness, and managed production builds using Vercel orchestration.",
+        "tags": ["Next.js", "Tailwind CSS", "MongoDB", "AWS S3", "Vercel"]
+      },
+      {
+        "title": "Custom Document Generation Platform",
+        "type": "Freelance Platform",
+        "description": "Developed a full-stack platform transforming requirement workflows into customized digital documents. Built a PostgreSQL data structure and integrated an Nginx web server and reverse proxy with Elastic IP on AWS EC2.",
+        "tags": ["React", "PostgreSQL", "AWS EC2", "Nginx"]
+      },
+      {
+        "title": "Web & TV Application",
+        "type": "Cross-Platform Development",
+        "description": "Engineered a modern web client built with Vite Alongside a functional TV layout using Expo TV. Designed and served a serverless backend orchestration powered by AWS Lambda, API Gateway, and DynamoDB.",
+        "tags": ["Vite", "Expo TV", "AWS Lambda", "DynamoDB"]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BS in Information Technology (Business Analytics)",
+        "school": "FEU Institute of Technology",
+        "location": "Manila",
+        "period": "2022 — Present",
+        "featured": true
+      },
+      {
+        "degree": "BS in Computer Engineering",
+        "school": "FEU Institute of Technology",
+        "location": "Manila",
+        "period": "2020 — 2022",
+        "featured": false
+      }
+    ]
+  }
+}
