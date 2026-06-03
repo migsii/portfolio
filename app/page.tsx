@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { PortfolioData, ApiResponse } from "@/types/portfolio";
 import Navbar from "@/components/Navbar";
 import About from "@/components/About";
@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [portfolio, setPortfolio] = useState<PortfolioData | null>(null);
@@ -35,12 +36,12 @@ export default function Home() {
     fetchPortfolio();
   }, []);
 
-  const scrollToSection = (id: string) => {
+  const scrollToSection = useCallback((id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-  };
+  }, []);
 
   if (loading) {
     return (
@@ -66,12 +67,7 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="border-t border-zinc-800/50 py-6 text-center text-xs text-brand-muted">
-        <p>
-          &copy; {new Date().getFullYear()} Mark Miguel Manalastas. Built with
-          Next.js & Tailwind CSS v4.
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
